@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Comic Sans MS";
+  font-weight: 100;
+  padding: 2rem;
+}
+
+.search-tags-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  position: relative;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-wrapper {
+  margin-right: 1rem;
+  opacity: 0.5;
+}
+
+.dashboard {
+  h1 {
+    text-align: left;
+    font-weight: 100;
+  }
+}
+
+.search-input {
+  border-color: lightgray;
+  width: 18rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-family: "Comic Sans MS";
+  font-weight: 100;
+}
+
+.search-icon {
+  position: absolute;
+  left: 19rem;
+  bottom: 2.2rem;
+}
+
+.tags {
+  display: flex;
+}
+
+.card-title-version {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: left;
+}
+
+.card-tags {
+  display: flex;
+
+  span {
+    width: auto;
+    padding: 1rem;
+  }
+}
+
+.cards {
+  width: 22rem;
+  border-color: black;
+  border: 1px solid lightgrey;
+}
+
+.plus-sign {
+  border: 1px dotted lightgrey;
+
+  span {
+    color: lightgray;
+    font-size: 3rem;
+  }
+}
+
+.add-card-ui {
+  background-color: white;
+  width: 20rem;
+  height: 43rem;
+  margin: auto;
+  padding: 3rem;
+  margin-top: 5rem;
+}
+
+.add-card-form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    input,
+    textarea {
+      margin-top: 1rem;
+    }
+
+    input {
+      height: 3rem;
+    }
+  }
+
+  button {
+    padding: 1rem;
+    background-color: darkblue;
+    color: white;
+  }
+}
