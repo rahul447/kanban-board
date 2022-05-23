@@ -9,7 +9,7 @@ export const cardsMock = [
         cardTags: ["iOS"],
         cardTitle: "Add splash screen",
         cardDesc: "Use company logo",
-        DocumentLink: "",
+        documentLink: "https://www.google.com/",
         cardVersion: "A1",
       },
       {
@@ -17,7 +17,7 @@ export const cardsMock = [
         cardTags: ["Android"],
         cardTitle: "Onboarding animation v2",
         cardDesc: "Pilot version with Lootie",
-        DocumentLink: "",
+        documentLink: "https://www.facebook.com/",
         cardVersion: "A2",
       },
     ],

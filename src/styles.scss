@@ -79,6 +79,7 @@
 
 .plus-sign {
   border: 1px dotted lightgrey;
+  cursor: pointer;
 
   span {
     color: lightgray;
@@ -122,5 +123,6 @@
     padding: 1rem;
     background-color: darkblue;
     color: white;
+    cursor: pointer;
   }
 }

@@ -1,7 +1,7 @@
 import "./styles.scss";
 import React from "react";
 
-const Card = ({ cardTags, cardTitle, cardDesc, DocumentLink, cardVersion }) => {
+const Card = ({ cardTags, cardTitle, cardDesc, documentLink, cardVersion }) => {
   const renderCardTags = () => {
     return (
       <div className="card-tags">
@@ -32,7 +32,9 @@ const Card = ({ cardTags, cardTitle, cardDesc, DocumentLink, cardVersion }) => {
       </div>
       <div>{cardDesc}</div>
       <div>
-        <span>Document Link</span>
+        <a href={documentLink} target="_blank" rel="noopener noreferrer">
+          Document Link
+        </a>
       </div>
     </div>
   );

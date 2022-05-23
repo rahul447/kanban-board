@@ -57,7 +57,7 @@ const AddCard = ({ saveCardCallBack }) => {
       cardTags: tagList,
       cardTitle: title,
       cardDesc: description,
-      DocumentLink: link,
+      documentLink: link,
       cardVersion: "A1",
     };
 
