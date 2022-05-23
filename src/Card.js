@@ -1,5 +1,5 @@
 import "./styles.scss";
-import React, { useState } from "react";
+import React from "react";
 
 const Card = ({ cardTags, cardTitle, cardDesc, DocumentLink, cardVersion }) => {
   const renderCardTags = () => {

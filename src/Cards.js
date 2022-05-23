@@ -9,7 +9,7 @@ const Cards = ({ handleOpen, visibleCards }) => {
     });
   };
 
-  const renderAddCardButton = (colorCode) => {
+  const renderAddCardButton = (cardsState, colorCode) => {
     return (
       <div
         className="plus-sign"
@@ -20,7 +20,11 @@ const Cards = ({ handleOpen, visibleCards }) => {
         }}
         onClick={handleOpen}
       >
-        <span>&#43;</span>
+        {cardsState === "Backlog" ? (
+          <span>&#43;</span>
+        ) : (
+          <span className="drag-drop-button">Drag and drop here</span>
+        )}
       </div>
     );
   };
@@ -40,7 +44,7 @@ const Cards = ({ handleOpen, visibleCards }) => {
               {cardsState}
             </div>
             {cardRows && cardRows.length > 0 && renderCardRows(cardRows)}
-            {renderAddCardButton(colorCode)}
+            {renderAddCardButton(cardsState, colorCode)}
           </div>
         </React.Fragment>
       );

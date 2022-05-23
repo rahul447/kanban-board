@@ -42,11 +42,6 @@ export const cardsMock = [
   },
 ];
 
-// {
-//   title: "iOS",
-//   colorCode: "black",
-// },
-
 export const globalTagsLists = [
   {
     title: "iOS",
